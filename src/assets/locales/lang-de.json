@@ -1,0 +1,166 @@
+{
+	"general": {
+		"CURRENCY": "Währung",
+		"US_DOLLAR": "US Dollar",
+		"EURO": "Euro",
+		"BRITISH_POUND": "British Pound",
+		"ICELANDIC_KRONA": "Icelandic Krona",
+		"button": {
+			"BACK" : "Zurück",
+			"CONTINUE": "Fortfahren",
+			"GO_TO_SUBSCRIPTION_PAGE": "Zur Abonnementseite gehen",
+			"GO_TO_CUSTOMER_PAGE": "Zur Kundenseite gehen"
+		},
+		"message": {
+			"ERROR_CONNECTING_TO_SERVER": "Fehler: kann nicht mit dem Server verbinden. Bitte überprüfen Sie dass Ihr Server läuft.",
+			"MUST_CHOOSE_SUBSCRIPTION": "Sie müssen einen Abonnementplan wählen bevor Sie fortfahren",
+			"MUST_FILL_CUSTOMER_INFO": "Sie müssen die Kundendaten ausfüllen, bevor Sie fortfahren"
+		}
+	},
+	"customer": {
+		"button": {
+			"CREATE_CUSTOMER": "Kunde erstellen"
+		},
+		"heading": {
+			"FILL_OUT_YOUR_CONTACT_INFO": "Füllen Sie Ihre Kontaktinformationen aus"
+		},
+		"loading": {
+			"CREATING_CUSTOMER": "Kunde wird erstellt...",
+			"FETCHING_CUSTOMER_INFO": "Kundeninformation wird geholt...",
+			"LOADING_PROFILE_DETAILS": "Profildetails werden geladet..."
+		},
+		"label": {
+			"FIRST_NAME": "Vorname",
+			"LAST_NAME": "Name",
+			"EMAIL": "Email",
+			"EMAIL_ADDRESS": "Email Adresse"
+		},
+		"message": {
+			"ERROR_FETCHING_CUSTOMER_INFO": "Fehler beim Abrufen von Kundeninformationen."
+		}
+	},
+	"subscription": {
+		"navigation": {
+			"SUBSCRIPTION_PLAN": "Abonnementplan",
+			"CUSTOMER_INFORMATION": "Kunden Information",
+			"PAYMENT_METHOD": "Zahlungsweise"
+		},
+		"heading": {
+			"BILLING_OVERVIEW": "Abrechnungsübersicht",
+			"EDIT_SUBSCRIPTION_PLAN": "Abonnementplan ändern",
+			"EDIT_PAYMENT_METHOD": "Zahlungsweise ändern",
+			"MOST_POPULAR": "Am beliebtesten",
+			"NO_TRANSACTIONS_FOUND": "Es wurden keine Transaktionen gefunden",
+			"SELECT_SUBSCRIPTION": "Wählen Sie einen Abonnementplan",
+			"SUBSCRIPTION": "Abonnementplan",
+			"SUBSCRIPTIONS": "Abonnements",
+			"SUBSCRIPTION_CREATED": "Ihr Abonnementplan wurde erstellt",
+			"TRANSACTION_HISTORY": "Verlauf der Transaktionen",
+			"PAYMENT_METHOD": "Zahlungsweise",
+			"TRANSACTION_STATUS_HISTORY": "Statusverlauf",
+			"YOU_HAVE_NO_SUBSCRIPTIONS": "Sie haben keine Abonnements",
+			"YOUR_SAVED_PAYMENT_METHODS": "Ihre gespeicherten Zahlungsmethoden"
+		},
+		"button": {
+			"CHANGE_PLAN": "Plan ändern",
+			"CURRENT_PLAN": "Aktueller plan",
+			"CHANGE_PAYMENT_METHOD": "Zahlungsweise ändern",
+			"CANCEL_SUBSCRIPTION": "Abonnementplan beenden",
+			"DISABLE_AUTO_RENEW": "Automatische Erneuerung deaktivieren",
+			"EDIT_PLAN": "Plan ändern",
+			"ENABLE_AUTO_RENEW": "Automatische Erneuerung aktivieren",
+			"RETRY_CHARGE": "Ladung wiederholen",
+			"SELECT_PLAN": "Plan auswählen",
+			"SUBSCRIBE_NOW": "Jetzt abonnieren",
+			"START_OVER": "Neu beginnen"
+		},
+		"label": {
+			"AUTO_RENEW_DISABLED": "Automatische Erneuerung deaktiviert",
+			"AUTO_RENEW_ENABLED": "Automatische Erneuerung aktiviert",
+			"BILLING_AMOUNT": "Rechnungsbetrag",
+			"DISCOUNT": "Rabatt",
+			"MONTH": "Monat",
+			"NEXT_BILLING_AMOUNT": "Nächster Rechnungsbetrag",
+			"NEXT_BILLING_DATE": "Nächster Abrechnungsdatum",
+			"NEXT_BILLING_PERIOD_AMOUNT": "Nächster Abrechnungszeitraum",
+			"OR": "oder",
+			"PAY_MONTHLY": "Monatlich zahlen",
+			"SELECTED_PLAN": "Ausgewählter Plan",
+			"SUBSCRIPTION_STARTED": "Abonnement hat begonnen",
+			"SUBSCRIPTION_STATUS": "Status",
+			"UPGRADE_CREDIT": "Guthaben aktualisieren"
+		},
+		"loading": {
+			"CANCELLING_SUBSCRIPTION": "Abonnementplan wird gekündigt..",
+			"CREATING_SUBSCRIPTION": "Abonnementplan wird erstellt..",
+			"ENABLING_AUTO_RENEW": "Automatische Erneuerung wird aktiviert...",
+			"DISABLING_AUTO_RENEW": "Automatische Erneuerung wird deaktiviert...",
+			"FETCHING_SUBSCRIPTION_PLANS": "Abonnementplans werden abgerufen...",
+			"UPDATING_SUBSCRIPTION_PLANS": "Abonnementplans werden aktualisiert..."
+		},
+		"message": {
+			"AUTO_RENEW_HAS_BEEN_DISABLED": "Automatische Erneuerung wurde deaktiviert.",
+			"AUTO_RENEW_HAS_BEEN_ENABLED": "Automatische Erneuerung wurde aktiviert.",
+			"ERROR_CANCELLING_SUBSCRIPTION": "Fehler beim Abonnementplan deaktivieren",
+			"ERROR_CREATING_SUBSCRIPTION": "Fehler bei der Erstellung des Abonnementplan",
+			"ERROR_UPDATING_SUBSCRIPTION": "Fehler bei der aktualisierung des Abonnementplan.",
+			"ERROR_FETCHING_SUBSCRIPTION_PLANS": "Abonnementplans können nicht abgerufen werden, bitte versuchen Sie es später.",
+			"SUBSCRIPTION_CANCELLED": "Abonnementplan wurde deaktiviert.",
+			"SUBSCRIPTION_CHANGED_TO_NEW_PLAN": "Ihr Abonnement wurde für den neuen Plan geändert.",
+			"UPDATED_SUBSCRIPTION_WITH_DISCOUNT": "Eine Zahlung von {{Betrag}} wurde eingereicht, Ihr bisheriger Abonnementgutschrift {{Rabatt}} wurde von dem vollen Betrag abgezogen."
+		},
+		"text": {
+			"GO_TO": "Gehe zu",
+			"BILLING_OVERVIEW": "Abrechnungsübersicht",
+			"FOR_MORE_DETAILS": "für mehr Details"
+		}
+	},
+	"payment": {
+		"button": {
+			"CHOOSE_CARD": "Karte auswählen",
+			"CHOOSE_PAYPAL": "Paypal auswählen",
+			"CONNECT_TO_PAYPAL": "Mit Paypal verbinden",
+			"DEFAULT_PAYMENT_METHOD": "Standard Zahlungmethode1",
+			"DELETE_PAYMENT_METHOD_CONFIRM": "Sind Sie sicher, dass Sie diese Zahlungsmethode löschen möchten?",
+			"SAVE_AND_CHOOSE_CARD": "Karte wählen und speichern",
+			"PAY_NOW": "Jetzt zahlen"
+		},
+		"heading": {
+			"ADD_NEW_PAYMENT_METHOD": "Neue Zahlungsmethode zufügen",
+			"CREDIT_OR_DEBIT_CARD": "Kredit- oder Debitkarte",
+			"CONNECT_TO_PAYPAL": "Mit Paypal verbinden",
+			"CHOOSE_PAYMENT_METHOD": "Zahlungsmethode auswählen",
+			"FILL_OUT_YOUR_CARD_DETAILS": "Kartendetails ausfüllen",
+			"NEW_PAYMENT_METHOD": "Neue Zahlungmethode",
+			"SAVED_PAYMENT_METHODS": "Zahlungsmethoden gespeichert"
+		},
+		"label": {
+			"AMOUNT": "Betrag",
+			"CARD_NUMBER": "Kartennummer",
+			"CARD_EXPIRATION_DATE": "Haltbarkeitsdatum",
+			"CARD_EXPIRED": "Abgelaufen",
+			"CVV": "CVV",
+			"CURRENCY": "Währung",
+			"DEBIT_CARD": "Debitkarte",
+			"PAYMENT_TYPE": "Zahlungmethode",
+			"PAYPAL_EMAIL": "Email",
+			"PREPAID_CARD": "Prepaid Karte"
+		},
+		"message": {
+			"ERROR_DELETING_PAYMENT_METHOD": "Fehler beim Löschen der Zahlungsmethode.",
+			"PAYMENT_AUTHORIZED": "Zahlung genehmigt, danke.",
+			"PAYMENT_FAILED": "Bezahlung fehlgeschlagen",
+			"PAYMENT_METHOD_DELETED": "Zahlungsmethode wurde gelöscht, alle verbundenen Abonnements wurden deaktiviert.",
+			"PAYMENT_METHOD_UPDATED": "Zahlungsmethode wurde aktualisiert.",
+			"RETRY_TRANSACTION_UNSUCCESSFUL": "Wiederholung der Transaktion war nicht erfolgreich",
+			"TRANSACTION_SUCCESSFUL": "Transaktion erfolgreich!"
+		},
+		"loading": {
+			"DELETING_PAYMENT_METHOD": "Zahlungsmethode wird gelöscht...",
+			"RETRYING_TRANSACTION": "Transaktion wir wiederholt...",
+			"SAVING_PAYMENT_INFORMATION": "Zahlungsinformation wird gespeichert...",
+			"PROCESSING_PAYMENT": "Zahlung wird bearbeitet...",
+			"UPDATING_PAYMENT_METHOD": "Zahlungsmethode wird aktualisiert..."
+		}
+	}
+}
